@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        node {
-            label "linux && java11"
-        }
+    agent any
     }
     stages {
         stage("Build") {
